@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORM</title>
+  <link rel="stylesheet" href="Hii.css">
+</head>
+<body>
+  
+  
+  <div id="bar">
+    <img src="https://www.vbuuniv.in/resources/images/logo.png"height="30">
+    <a href="https://www.vbu.ac.in/login">
+      VBU
+    </a>
+    
+  <a href="https://jharkhanduniversities.nic.in/home">
+      Admission
+    </a>
+    
+    <a href="https://www.vbu.ac.in/notice/Result">
+      Result
+    </a>
+    <a href="https://www.instagram.com/itx.avinash._?igsh=MXQxejFiOW40M2czNQ==">Contact us</a>
+   
+    
+      <input type="search"placeholder="search here"><button>search</button>
+  
+  </div>
+  
+<br>
+<br>
+<form action="/action.php">
+  <div id="img">
+    <h1 id="vb">VINOBA BHAVE</h1>
+    <h1 id="u">UNIVERSITY</h1>
+  <div id="login">
+  <input type="text"placeholder="enter usename"/>
+  <br>
+  <br>
+  <input type="password"placeholder="enter password"/>
+
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <h4>enter gender</h4>
+  <label>
+  <input type="radio" value="male" name="gender">male
+  </label>
+  <br>
+  <label>
+  <input type="radio" value="women" name="gender">woman
+  </label>
+  <br>
+  <h3>enter your D.O.B:-</h3>
+  <input type="datetime-local" class="10" >
+  <br>
+  <br>
+  <h3>enter your moblie number:-</h3>
+  <input type="number" class="10">
+  <br>
+  <h3>uploads your signature:-</h3>
+  <input type="file" class="10">
+  <br>
+  
+  <br>
+  <h3>Enter your favorite subject</h3>
+     <label>
+    <input type="checkbox" value="maths" id="1001" class="10">maths
+    </label>
+    <br>
+    <label>
+    <input type="checkbox" value="physics" id="1001" class="10">physics
+    </label>
+     <br>
+      <label>
+    
+         <input type="checkbox" value="chemistery" id="1001" class="10">chemistery
+ 
+      </label>
+       
+       <br>
+      <label>
+         <input type="checkbox" value="computer science" id="1001" class="10">computer science
+      </label>
+      
+      <br>
+      <br>
+      
+      Enter your city=
+      <select name="city">
+        <option value="default">default</option>
+        <option vlaule="telaiya">telaiya</option>
+        <option value="hazaribagh">hazaribagh</option>
+        <option value="ranchi">ranchi</option>
+        <option value="koderma">koderma</option>
+      </select>
+      <br>
+      <br>
+      <textarea name="feedback" id="1001" rows="7" placeholder="pleace enter your feedback"></textarea>
+      <br>
+      <br>
+      <input type="submit" value="submit">
+   
+  
+  
+</form>
+
+<br>
+
+<div id="down">
+    <a href="https://jharkhanduniversities.nic.in/home">hello</a>
+</div>
+
+</body>
+</html>
+*{
+  padding: 0px;
+  margin: 0px;
+  color: #be7b18ef;
+}
+#img{
+  background-image: url('http://result.vbuuniv.in/vbuuniv/resources/images/1.jpg');
+height: 100vh;
+background-size: cover;
+background-position: center;
+  text-align: center;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+}
+
+
+
+#login{
+  padding: 50px 0px 50px 0px;
+  position: relative;
+  top: 150px;
+  border-width: 1px;
+  border-radius:5px;
+  border-style: solid;
+  border-color:#222222;
+  text-align: center;
+}
+#vb{
+  font-size: 50px;
+  color: #be7b18ef;
+  text-align: center;
+  text-decoration:underline;
+  text-transform:uppercase ;
+  
+}
+#u{
+  font-size: 100px;
+  color: #be7b18ef;
+  text-align: center;
+  text-decoration:underline;
+  text-transform:uppercase ;
+  
+}
+body{
+background-image: url('best.jpg');
+background-size: cover;
+color:#353535;
+font-family:Times New Roman;
+}
+#op{
+  
+  color: #;
+}
+.jai,.ho{
+  padding: 120px;
+  padding-bottom:200px 
+}
+#bar{
+  position:sticky ;
+  top:0px;
+  height:50px;
+  text-align: center;
+  background-color:#525252e6;
+  border-radius: 5px;
+  
+}
+a{
+  color:#222222;
+  text-decoration: ;
+  margin-right: 40px;;
+}
+#cont{
+  background-color: #074976c8;
+  height: 1000px;
+}
+#extra{
+position: relative;
+top:100px;
+  height:auto;
+background-color:#2a859161;
+}
+#down{
+  position: fixed;
+  background-color: #000000;
+  text-align: center;
+  bottom:0px;
+  
+  
+}
